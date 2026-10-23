@@ -1,0 +1,23 @@
+{
+	"schemaVersion": 1,
+	"id": "randomblocks",
+	"version": "${version}",
+	"name": "Random Blocks",
+	"description": "Place blocks from your hotbar and inventory at random by percentage, or as a gradient.",
+	"authors": ["Aadit"],
+	"license": "CC0-1.0",
+	"icon": "assets/randomblocks/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"client": ["dev.aadit.randomblocks.RandomBlocksClient"]
+	},
+	"mixins": [
+		{ "config": "randomblocks.client.mixins.json", "environment": "client" }
+	],
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}

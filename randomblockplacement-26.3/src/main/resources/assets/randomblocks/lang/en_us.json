@@ -1,0 +1,25 @@
+{
+	"key.category.randomblocks.keys": "Random Blocks",
+	"key.randomblocks.open": "Open Block Palette",
+	"key.randomblocks.toggle": "Toggle Random Placement",
+	"key.randomblocks.reset_anchor": "Reset Gradient Start",
+
+	"screen.randomblocks.title": "Random Blocks Palette",
+	"screen.randomblocks.hint": "Tick blocks, set percentages, order them top-to-bottom for gradients",
+	"screen.randomblocks.empty": "No blocks in your hotbar or inventory",
+	"screen.randomblocks.mode.random": "Mode: Random",
+	"screen.randomblocks.mode.gradient": "Mode: Gradient",
+	"screen.randomblocks.axis": "Axis: %s",
+	"screen.randomblocks.length": "Length: %s",
+	"screen.randomblocks.blend": "Blend: %s%%",
+	"screen.randomblocks.total": "%s blocks selected, total %s%% (scaled to 100%%)",
+	"screen.randomblocks.none_selected": "No blocks selected",
+	"screen.randomblocks.place": "Place",
+	"screen.randomblocks.stop": "Stop",
+
+	"message.randomblocks.started.random": "Random placement ON",
+	"message.randomblocks.started.gradient": "Gradient placement ON - your next block is the start",
+	"message.randomblocks.stopped": "Random placement OFF",
+	"message.randomblocks.anchor_reset": "Gradient start reset - your next block is the new start",
+	"message.randomblocks.out_of_blocks": "Out of palette blocks - placement OFF"
+}
