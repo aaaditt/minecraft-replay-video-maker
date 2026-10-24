@@ -32,9 +32,9 @@ public class RandomBlocksClient implements ClientModInitializer {
 	@Override
 	public void onInitializeClient() {
 		openKey = KeyMappingHelper.registerKeyMapping(
-			new KeyMapping("key.randomblocks.open", InputConstants.KEY_R, CATEGORY));
+			new KeyMapping("key.randomblocks.open", InputConstants.KEY_U, CATEGORY));
 		toggleKey = KeyMappingHelper.registerKeyMapping(
-			new KeyMapping("key.randomblocks.toggle", InputConstants.KEY_G, CATEGORY));
+			new KeyMapping("key.randomblocks.toggle", InputConstants.KEY_Y, CATEGORY));
 		resetAnchorKey = KeyMappingHelper.registerKeyMapping(
 			new KeyMapping("key.randomblocks.reset_anchor", InputConstants.UNKNOWN.getValue(), CATEGORY));
 

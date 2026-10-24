@@ -11,11 +11,11 @@ It only uses normal client actions (selecting a slot, swapping items in the inve
 
 | Key (default) | What it does |
 |---|---|
-| `R` | Open the palette screen |
-| `G` | Turn placement on or off (opens the palette if nothing is selected yet) |
+| `U` | Open the palette screen |
+| `Y` | Turn placement on or off (opens the palette if nothing is selected yet) |
 | unbound | Reset the gradient start point |
 
-1. Press `R`. Every block in your hotbar and inventory is listed.
+1. Press `U`. Every block in your hotbar and inventory is listed.
 2. Tick the blocks you want and drag each slider to set its percentage. Any total works: it gets
    scaled to 100%, and the screen shows the real share next to each block.
 3. Choose a **Mode**:
